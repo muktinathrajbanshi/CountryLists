@@ -1,11 +1,6 @@
-import React from 'react';
 
 const App = () => {
-  return (
-    <>
-      <h1>Hello, This is me Muktinath Rajbanshi. Welcome to the new Project!!!</h1>
-    </>
-  );
+  return <h1>Hello, Welcome to my new Project!!!</h1>;
 };
 
 export default App;
