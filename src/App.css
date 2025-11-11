@@ -81,3 +81,11 @@ button {
   max-width: 140rem;
   margin: auto;
 }
+
+.grid {
+  display: grid;
+}
+
+.grid-two-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
