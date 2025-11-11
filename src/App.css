@@ -76,3 +76,8 @@ button {
   border-style: solid;
   margin-top: 1.6rem;
 }
+
+.container {
+  max-width: 140rem;
+  margin: auto;
+}

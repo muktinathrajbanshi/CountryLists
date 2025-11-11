@@ -1,3 +1,28 @@
+import { createBrowserRouter } from "react-router-dom";
+
+import "./App.css";
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element:<Home />
+  },
+  {
+    path:"about",
+    element:<About />
+  },
+  {
+    path:"country",
+    element:<Country />
+  },
+  {
+    path:"contact",
+    element:<Contact />
+  }
+]);
 
 const App = () => {
   return <h1>Hello, Welcome to my new Project!!!</h1>;
