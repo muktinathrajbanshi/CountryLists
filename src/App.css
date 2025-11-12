@@ -140,3 +140,23 @@ header .container {
 .ham-menu {
   display: none;
 }
+
+/* hero section  */
+
+.hero-section .container {
+  padding: 3.2;
+  margin: 9rem auto;
+  gap: 6.4rem;
+}
+
+.paragraph {
+  margin: 3.2rem 0;
+}
+
+.heading-xl {
+  font-family: inherit;
+  font-size: clamp(5.2rem, 6vw, 4.241rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1px;
+}
