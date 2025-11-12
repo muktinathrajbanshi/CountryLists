@@ -89,3 +89,24 @@ button {
 .grid-two-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Layout  */
+
+header {
+  height: 10rem;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  background-color: #202020;
+  width: 100%;
+}
+
+header .container {
+  height: 10rem;
+}
