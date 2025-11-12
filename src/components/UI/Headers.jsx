@@ -14,7 +14,7 @@ export const Headers = () => {
                     <nav>
                      <ul>
                         <li>
-                          <NavLink to="/"></NavLink>  
+                          <NavLink to="/">Home</NavLink>  
                         </li>
                         <li>
                           <NavLink to="/about">About</NavLink>  
@@ -24,9 +24,6 @@ export const Headers = () => {
                         </li>
                         <li>
                           <NavLink to="/contact">Contact</NavLink>  
-                        </li>
-                        <li>
-                          <NavLink>Home</NavLink>  
                         </li>
                      </ul>   
                     </nav>

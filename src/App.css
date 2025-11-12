@@ -30,7 +30,7 @@ li,
 a,
 button {
   font-size: 1.7rem;
-  letter-spacing: 1.7rem;
+  letter-spacing: 1px;
   line-height: 1.6;
   color: #fff;
 }
@@ -100,6 +100,18 @@ nav ul {
   color: #fff;
 }
 
+nav ul li a {
+  color: #fff;
+}
+
+.Logo a {
+  text-decoration: none;
+}
+
+.Logo h1:hover {
+  color: #2e86c1;
+}
+
 .grid-two-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -123,4 +135,8 @@ header {
 
 header .container {
   height: 10rem;
+}
+
+.ham-menu {
+  display: none;
 }
