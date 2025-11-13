@@ -256,6 +256,24 @@ header .container {
   background: linear-gradient(71deg, #121013, #b0afb0, #121013);
 }
 
+.bg-yellow-box::after {
+  background: linear-gradient(71deg, #110e0e, #afa220, #110e0e);
+}
+
+.bg-blue-box::after {
+  background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+}
+
+.card-title {
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-style: normal;
+  font-size: 28px;
+  padding-bottom: 8px;
+}
+
 @media screen and (max-width: 990px) {
   .hero-content {
     order: 1;
