@@ -183,6 +183,22 @@ header .container {
   gap: 3.2rem;
 }
 
+@media screen and (max-width: 991px) {
+  .gradient-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.container-title {
+  text-align: center;
+  padding: 0 !important;
+  margin-bottom: 40px;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 60px;
+}
+
 @media screen and (max-width: 990px) {
   .hero-content {
     order: 1;
