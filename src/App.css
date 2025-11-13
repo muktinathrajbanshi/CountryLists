@@ -274,6 +274,14 @@ header .container {
   padding-bottom: 8px;
 }
 
+.card-description {
+  font-weight: 600;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  max-width: 470px;
+}
+
 @media screen and (max-width: 990px) {
   .hero-content {
     order: 1;
