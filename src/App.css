@@ -330,6 +330,21 @@ button {
   border: 1.7px solid rgba(255, 255, 255, 0.5);
 }
 /* footer CSS  */
+.footer-section {
+  width: 100%;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  background-color: #202020;
+  margin-top: 4rem auto 1rem 2rem;
+}
+
+.footer-section .grid-three-cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .footer-contact {
   height: 10rem;
   display: flex;
@@ -338,7 +353,42 @@ button {
 }
 
 .footer-contact .icon {
-  color: red;
+  color: #2980b9;
+  font-size: 3rem;
+}
+
+.footer-contact-text p:last-child {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.copyright-area {
+  margin-top: 1rem;
+  border: 1px solid red;
+}
+
+.copyright-area .container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.copyright-area .container .grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-area .grid-two-cols {
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.copyright-area .copyright-text {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright-text p {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 @media screen and (max-width: 990px) {
