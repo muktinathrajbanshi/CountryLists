@@ -296,14 +296,27 @@ header .container {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 .contact-wrapper form {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
+input {
+  width: 42rem;
+}
+
+.form-control {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0.5px solid rgba(255, 255, 255, 0.3);
+  outline: none;
+}
 /* footer CSS  */
 .footer-contact {
   height: 10rem;
