@@ -207,7 +207,7 @@ header .container {
 }
 
 .container-card {
-  /* position: relative; */
+  position: relative;
   border: 2px solid transparent;
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   background-clip: padding-box;
@@ -283,6 +283,26 @@ header .container {
 }
 
 /* Contact Section  */
+.section-contact {
+  margin: 0 auto 9rem auto;
+}
+
+.container-title {
+  /* margin-top: 1rem; */
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.contact-wrapper form {
+  display: flex;
+  flex-direction: column;
+}
 
 /* footer CSS  */
 .footer-contact {
