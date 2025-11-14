@@ -288,7 +288,7 @@ header .container {
 }
 
 .container-title {
-  /* margin-top: 1rem; */
+  margin-top: 5rem;
 }
 
 .contact-wrapper {
@@ -311,11 +311,23 @@ input {
 .form-control {
   padding: 1rem 1.5rem;
   display: flex;
+  color: #fff;
+  font-size: 1.6rem;
   justify-content: center;
   align-items: center;
   background-color: transparent;
   border: 0.5px solid rgba(255, 255, 255, 0.3);
   outline: none;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+button {
+  text-transform: uppercase;
+  border: 1.7px solid rgba(255, 255, 255, 0.5);
 }
 /* footer CSS  */
 .footer-contact {
