@@ -37,7 +37,7 @@ export const Footers = () => {
                     <div className="grid grid-two-cols">
                         <div className="copyright-text">
                             <p>
-                                Copyright &copy; 2025, All Right Reserved 
+                                Copyright © 2025, All Right Reserved 
                                 <NavLink to="https://muktinathrajbanshi.com/" target="_blank">
                                     MuktinathTech
                                 </NavLink>

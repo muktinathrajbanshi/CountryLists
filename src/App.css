@@ -282,6 +282,20 @@ header .container {
   max-width: 470px;
 }
 
+/* Contact Section  */
+
+/* footer CSS  */
+.footer-contact {
+  height: 10rem;
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.footer-contact .icon {
+  color: red;
+}
+
 @media screen and (max-width: 990px) {
   .hero-content {
     order: 1;
