@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "MdPlace",
+        "title": "Find us",
+        "details": "Putalisadak, KTM"
+    },
+    {
+        "icon": "IoCallSharp",
+        "title": "Call us",
+        "details": "9806049128"
+    },
+    {
+       "icon": "TbMailPlus",
+       "title": "Mail us",
+       "details": "muktinathrajbanshi786@gmail.com"
+    }
+]
