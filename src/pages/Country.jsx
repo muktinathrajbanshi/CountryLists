@@ -17,7 +17,17 @@ export const Country = () => {
   if(isPending) return <Loader />;
 
   return (
-    <h1>Country Page</h1>
+    <section className="country-section">
+      <ul className="grid grid-four-cols">
+        {
+          countries.map((curCountry) => {
+            return (
+              <CountryCard country = {curCountry} />
+            );
+          })
+        }
+      </ul>
+    </section>
   );
 };
 
