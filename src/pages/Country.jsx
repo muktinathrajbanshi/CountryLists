@@ -18,7 +18,7 @@ export const Country = () => {
   if(isPending) return <Loader />;
 
   return (
-    <section className="country-section">
+    <section className="container country-section">
       <ul className="grid grid-four-cols">
         {
           countries.map((curCountry, index) => {
