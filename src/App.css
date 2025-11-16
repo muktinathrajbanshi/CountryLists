@@ -422,18 +422,19 @@ button {
 /* Country Css  */
 .country-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .country-section .grid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  width: 100%;
 }
 
-.country-section .grid .grid-four--cols {
-  display: flex;
+.country-section .grid.grid-four-cols {
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
 }
 
 .container-card img {
