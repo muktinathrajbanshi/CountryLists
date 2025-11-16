@@ -5,7 +5,18 @@ export const CountryCard = ({ country }) => {
             <img src={flags.svg} alt="flags.alt" />
 
             <div className="countryInfo">
-                <div className="card-title"></div>
+                <p className="card-title">{name.common}</p>
+                <p>
+                    <div className="card-description">Population:</div>
+                    {population.toLocaleString()}
+                </p>
+                <p>
+                 <span className="card-description">Region:</span> {region}
+                </p>
+                <p>
+                <span className="card-description">Capital:</span>
+                {capital[0]}
+                </p>
             </div>
         </div>
     </li>;
