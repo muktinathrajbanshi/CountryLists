@@ -419,6 +419,27 @@ button {
   font-size: 1.9rem;
 }
 
+/* Country Css  */
+.country-section {
+  display: flex;
+}
+
+.country-section .grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.country-section .grid .grid-four--cols {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container-card img {
+  width: 20rem;
+}
+
 /* css loader */
 .loader {
   width: 50px;

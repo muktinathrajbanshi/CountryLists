@@ -3,6 +3,10 @@ export const CountryCard = ({ country }) => {
     return <li className="country-card card">
         <div className="container-card bg-white-box">
             <img src={flags.svg} alt="flags.alt" />
+
+            <div className="countryInfo">
+                <div className="card-title"></div>
+            </div>
         </div>
     </li>;
 };
