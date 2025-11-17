@@ -23,7 +23,7 @@ export const CountryDetails = () => {
       if(isPending) return <Loader />;
 
     return (
-        <section className="card country-details-card container">
+        <section className="card country-details-card">
             <div className="container-card bg-white-box">
             {
                 country && (
