@@ -450,6 +450,32 @@ button {
   height: 20rem;
 }
 
+/* Country Details Section  */
+
+.card .country-details-card.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.country-details-card .container-card {
+  width: 100%;
+  /* background-color: pink; */
+}
+
+.country-details-card .container-card {
+  background-color: orange;
+}
+
+.country-details-card .country-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
 /* css loader */
 .loader {
   width: 50px;
