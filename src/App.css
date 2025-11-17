@@ -455,35 +455,13 @@ button {
 .card.country-details-card {
   width: 100%;
   max-width: 100%;
-  padding: 0;
-  margin: 0;
-  /* border: 1px solid red; */
-}
-
-.card.country-details-card {
-  width: 100%;
-  /* background-color: pink; */
-}
-
-.container-card {
-  /* border: 1px solid red; */
-}
-
-.container-card.bg-white-box {
-  /* background: #fff; */
-  width: 100%;
-  /* background-color: #fff; */
-}
-
-.country-details-card .container-card {
-  width: 100%;
 }
 
 .country-details-card .country-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 10rem;
 }
 
 /* css loader */
