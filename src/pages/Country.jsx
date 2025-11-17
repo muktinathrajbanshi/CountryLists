@@ -8,6 +8,9 @@ export const Country = () => {
   const [isPending, startTransition] = useTransition();
   const [countries, setCountries] = useState([]);
 
+  const [search, setSearch] = useState();
+  const [filter, setFilter] = useState();
+
   useEffect(() => {
     startTransition(async () => {
      const res = await getCountryData();
@@ -19,6 +22,14 @@ export const Country = () => {
 
   return (
     <section className="container country-section">
+
+     <SearchFilter
+      search={search} 
+      setSearch={setSearch} 
+      filter={filter}  
+      setFilter={setFilter}  
+      />
+
       <ul className="grid grid-four-cols">
         {
           countries.map((curCountry, index) => {
