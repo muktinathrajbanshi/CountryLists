@@ -454,6 +454,7 @@ button {
 
 .card.country-details-card {
   width: 100%;
+  margin-top: 4rem;
   max-width: 100%;
 }
 
@@ -461,7 +462,37 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
+  margin-left: 5rem;
+  gap: 12rem;
+}
+
+.country-image.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-image.grid .country-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.country-image.grid.grid-two-cols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.country-image.grid.grid-two-cols img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding-top: 4.5rem;
 }
 
 /* css loader */
