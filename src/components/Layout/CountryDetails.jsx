@@ -1,5 +1,5 @@
 import { useEffect, useState, useTransition } from "react";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { getCountryIndData } from "../../api/postApi";
 import { Loader } from "../UI/Loader";
 
@@ -78,6 +78,11 @@ export const CountryDetails = () => {
                     </div>
                 </div>
                 )}
+                <div className="country-card-backBtn">
+                    <NavLink to="/country" className="backBtn">
+                        <button>Go Back</button>
+                    </NavLink>
+                </div>
             </div>
         </section>
     );
