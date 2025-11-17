@@ -450,6 +450,10 @@ button {
   height: 20rem;
 }
 
+.countryInfo a {
+  text-decoration: none;
+}
+
 /* Country Details Section  */
 
 .card.country-details-card {
