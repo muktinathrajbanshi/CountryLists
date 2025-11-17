@@ -495,6 +495,15 @@ button {
   padding-top: 4.5rem;
 }
 
+.country-card-backBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.country-card-backBtn a {
+  text-decoration: none;
+}
+
 /* css loader */
 .loader {
   width: 50px;
