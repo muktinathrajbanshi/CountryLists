@@ -26,10 +26,11 @@ export const Country = () => {
     if(search) {
       return country.name.common.toLowerCase().includes(search.toLowerCase());
     }
+    return country;
   };
 
   // here is the main logic 
-  countries.filter((country) =>searchCountry(country))
+  const filterCountries = countries.filter((country) =>searchCountry(country))
   
 
   return (
@@ -44,7 +45,7 @@ export const Country = () => {
 
       <ul className="grid grid-four-cols">
         {
-          countries.map((curCountry, index) => {
+          filterCountries.map((curCountry, index) => {
             return <CountryCard country = {curCountry} key={index} />;
           })
         }
