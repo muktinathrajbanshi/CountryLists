@@ -10,9 +10,10 @@ export const SearchFilter = ({ search, setSearch, filter, setFilter}) => {
         setFilter(event.target.value)
     }
 
+
+
     return (
-    <section className="section-searchFilter
-    container">
+    <section className="section-searchFilter container">
         <input 
         type="text" 
         placeholder="search" 

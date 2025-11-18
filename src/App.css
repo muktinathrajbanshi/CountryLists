@@ -431,6 +431,14 @@ button {
   /* margin: 6rem 4rem 3.5rem 4rem; */
 }
 
+.country-section .section-searchFilter {
+  display: flex;
+  margin-bottom: 5.5rem;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .country-section .grid {
   display: flex;
   justify-content: center;
