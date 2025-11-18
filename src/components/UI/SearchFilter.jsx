@@ -21,6 +21,14 @@ export const SearchFilter = ({ search, setSearch, filter, setFilter}) => {
         />
 
         <div>
+            <button onClick={() => sortCountries("asc")}>Asc</button>
+        </div>
+
+        <div>
+            <button onClick={() => sortCountries("des")}>Desc</button>
+        </div>
+
+        <div>
             <select 
             className="select-section" 
             value={filter} 
