@@ -22,6 +22,8 @@ export const Country = () => {
   if(isPending) return <Loader />;
 
   // console.log(search, filter);
+
+  // search logic 
   const searchCountry = (country) => {
     if(search) {
       return country.name.common.toLowerCase().includes(search.toLowerCase());
@@ -29,8 +31,14 @@ export const Country = () => {
     return country;
   };
 
+  // filter logic 
+  const filterRegion = (country) => {
+    if(filter === "all") return country;
+    return country.region === filter;
+  };
+
   // here is the main logic 
-  const filterCountries = countries.filter((country) =>searchCountry(country))
+  const filterCountries = countries.filter((country) =>searchCountry(country) && filterRegion(country));
   
 
   return (
