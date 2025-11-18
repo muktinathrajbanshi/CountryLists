@@ -1,4 +1,11 @@
-export const SearchFilter = ({ search, setSearch, filter, setFilter}) => {
+export const SearchFilter = ({ 
+    search, 
+    setSearch, 
+    filter, 
+    setFilter,
+    countries,
+    setCountries
+}) => {
 
     const handleInputChange = (event) => {
         event.preventDefault();
@@ -10,7 +17,11 @@ export const SearchFilter = ({ search, setSearch, filter, setFilter}) => {
         setFilter(event.target.value)
     }
 
-
+    const sortCountries = (value) => {
+        const sortCountry = [...countries].sort(() => {
+            
+        });
+    }
 
     return (
     <section className="section-searchFilter container">
