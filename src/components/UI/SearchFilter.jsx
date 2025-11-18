@@ -4,6 +4,10 @@ export const SearchFilter = ({ search, setSearch, filter, setFilter}) => {
         setSearch(event.target.value)
     }
 
+    const handleSelectChange = () => {
+        
+    }
+
     return (
     <section className="section-searchFilter
     container">
@@ -15,7 +19,8 @@ export const SearchFilter = ({ search, setSearch, filter, setFilter}) => {
         />
 
         <div>
-            <select className="select-section">
+            <select className="select-section" value=
+            {filter} onChange={handleSelectChange}>
                 <option value="all">All</option>
                 <option value="Africa">Africa</option>
                 <option value="Americas">Americas</option>
