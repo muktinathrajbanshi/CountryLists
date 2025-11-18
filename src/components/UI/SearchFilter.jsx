@@ -18,9 +18,12 @@ export const SearchFilter = ({
     }
 
     const sortCountries = (value) => {
-        const sortCountry = [...countries].sort(() => {
-            
+        const sortCountry = [...countries].sort((a, b) => {
+           return value === "asc" 
+            ? a.name.common.localeCompare(b.name.common)
+            : b.name.common.localeCompare(a.name.common);
         });
+        setCountries(sortCountry);
     }
 
     return (
