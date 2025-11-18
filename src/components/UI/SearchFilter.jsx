@@ -1,11 +1,13 @@
 export const SearchFilter = ({ search, setSearch, filter, setFilter}) => {
 
     const handleInputChange = (event) => {
+        event.preventDefault();
         setSearch(event.target.value)
     }
 
-    const handleSelectChange = () => {
-        
+    const handleSelectChange = (event) => {
+        event.preventDefault();
+        setFilter(event.target.value)
     }
 
     return (
@@ -19,8 +21,11 @@ export const SearchFilter = ({ search, setSearch, filter, setFilter}) => {
         />
 
         <div>
-            <select className="select-section" value=
-            {filter} onChange={handleSelectChange}>
+            <select 
+            className="select-section" 
+            value={filter} 
+            onChange={handleSelectChange}
+            >
                 <option value="all">All</option>
                 <option value="Africa">Africa</option>
                 <option value="Americas">Americas</option>

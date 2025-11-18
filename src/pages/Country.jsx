@@ -21,6 +21,9 @@ export const Country = () => {
 
   if(isPending) return <Loader />;
 
+  console.log(search, filter);
+  
+
   return (
     <section className="container country-section">
 
