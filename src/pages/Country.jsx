@@ -21,7 +21,15 @@ export const Country = () => {
 
   if(isPending) return <Loader />;
 
-  console.log(search, filter);
+  // console.log(search, filter);
+  const searchCountry = (country) => {
+    if(search) {
+      return country.name.common.toLowerCase().includes(search.toLowerCase());
+    }
+  };
+
+  // here is the main logic 
+  countries.filter((country) =>searchCountry(country))
   
 
   return (
