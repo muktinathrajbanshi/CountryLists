@@ -166,6 +166,14 @@ header .container {
     flex-direction: column;
     align-items: center;
   }
+
+  .menu-mobile ul li:first-child {
+    margin-top: 1.2rem;
+  }
+
+  .menu-mobile ul li:last-child {
+    margin-bottom: 1.2rem;
+  }
 }
 
 /* hero section  */
