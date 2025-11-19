@@ -24,7 +24,7 @@ export const SearchFilter = ({
             : b.name.common.localeCompare(a.name.common);
         });
         setCountries(sortCountry);
-    }
+    };
 
     return (
     <section className="section-searchFilter container">
