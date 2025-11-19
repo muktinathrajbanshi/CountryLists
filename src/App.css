@@ -439,12 +439,26 @@ button {
   align-items: center;
 }
 
-.country-section .section-searchFilter input {
+.country-section .section-searchFilter input,
+.select-section {
   padding: 0.5rem 1rem;
   border: none;
   outline: none;
   font-size: 1.7rem;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  background: #202020;
+  border: 1.7px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
 }
+
+/* .country-section .section-searchFilter .select-section {
+  padding: 0.5rem 1rem;
+  font-size: 1.7rem;
+} */
 
 .country-section .grid {
   display: flex;
