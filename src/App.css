@@ -455,10 +455,16 @@ button {
   color: #fff;
 }
 
-/* .country-section .section-searchFilter .select-section {
-  padding: 0.5rem 1rem;
-  font-size: 1.7rem;
-} */
+.country-section .section-searchFilter.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.country-section .section-searchFilter button {
+  margin: 0;
+  padding: 0.5rem 2.5rem;
+}
 
 .country-section .grid {
   display: flex;
