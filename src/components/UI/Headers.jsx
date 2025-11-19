@@ -19,7 +19,7 @@ export const Headers = () => {
                         </NavLink>
                     </div>
 
-                    <nav>
+                    <nav className={show ? "menu-mobile" : "menu-web"}>
                      <ul>
                         <li>
                           <NavLink to="/">Home</NavLink>  
