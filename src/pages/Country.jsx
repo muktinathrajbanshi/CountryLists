@@ -38,7 +38,9 @@ export const Country = () => {
   };
 
   // here is the main logic 
-  const filterCountries = countries.filter((country) =>searchCountry(country) && filterRegion(country));
+  const filterCountries = countries.filter(
+    (country) =>searchCountry(country) && filterRegion(country)
+  );
   
 
   return (
@@ -49,6 +51,8 @@ export const Country = () => {
       setSearch={setSearch} 
       filter={filter}  
       setFilter={setFilter}  
+      countries={countries}
+      setCountries={setCountries}
       />
 
       <ul className="grid grid-four-cols">

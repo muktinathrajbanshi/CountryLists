@@ -439,6 +439,13 @@ button {
   align-items: center;
 }
 
+.country-section .section-searchFilter input {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.7rem;
+}
+
 .country-section .grid {
   display: flex;
   justify-content: center;
