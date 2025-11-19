@@ -149,7 +149,16 @@ header .container {
 
   .ham-menu {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+  }
+
+  .menu-mobile {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
   }
 }
 
