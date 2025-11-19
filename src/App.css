@@ -141,6 +141,18 @@ header .container {
   display: none;
 }
 
+/* media queries  */
+@media screen and (max-width: 998px) {
+  .menu-web {
+    display: none;
+  }
+
+  .ham-menu {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* hero section  */
 
 .hero-section .container {
