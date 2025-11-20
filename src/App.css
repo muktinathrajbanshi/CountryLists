@@ -476,6 +476,10 @@ button {
   padding: 0.5rem 2.5rem;
 }
 
+.country-section .section-searchFilter .select-section {
+  cursor: pointer;
+}
+
 .country-section .grid {
   display: flex;
   justify-content: center;
@@ -609,6 +613,14 @@ button {
   .footer-section .copyright-area {
     width: 100%;
     padding: 0 3.2rem;
+  }
+
+  .country-section .grid {
+    padding: 0 3.2rem;
+  }
+
+  .country-section .grid.grid-four-cols {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
