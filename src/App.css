@@ -626,10 +626,6 @@ button {
 
 /* for 1072px  */
 @media (max-width: 1072px) {
-  .country-section .grid.grid-four-cols {
-    margin: 0 2rem;
-  }
-
   .country-section .country-card {
     width: 30rem;
   }
@@ -637,6 +633,12 @@ button {
   .country-section .country-card .container-card img {
     width: 15rem;
     height: 12rem;
+  }
+}
+
+@media (max-width: 963px) {
+  .country-section .country-card {
+    width: 25rem;
   }
 }
 
@@ -673,8 +675,14 @@ button {
   .menu-mobile ul li:last-child {
     margin-bottom: 1.2rem;
   }
+}
 
-  .footer-section {
-    /* margin: 0; */
+@media (max-width: 812px) {
+  .country-section .grid.grid-four-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .country-section .section-searchFilter input {
+    width: 20rem;
   }
 }
