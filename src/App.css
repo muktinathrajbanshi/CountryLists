@@ -179,7 +179,7 @@ header .container {
 /* hero section  */
 
 .hero-section .container {
-  padding: 3.2;
+  padding: 0 3.2rem;
   margin: 9rem auto;
   gap: 6.4rem;
 }
@@ -215,6 +215,7 @@ header .container {
 .gradient-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 0 3.2rem;
   gap: 3.2rem;
 }
 
