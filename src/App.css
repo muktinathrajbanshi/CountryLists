@@ -624,6 +624,22 @@ button {
   }
 }
 
+/* for 1072px  */
+@media (max-width: 1072px) {
+  .country-section .grid.grid-four-cols {
+    margin: 0 2rem;
+  }
+
+  .country-section .country-card {
+    width: 30rem;
+  }
+
+  .country-section .country-card .container-card img {
+    width: 15rem;
+    height: 12rem;
+  }
+}
+
 /* media queries  */
 @media (max-width: 998px) {
   .menu-web {
