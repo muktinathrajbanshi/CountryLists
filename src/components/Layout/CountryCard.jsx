@@ -7,7 +7,7 @@ export const CountryCard = ({ country }) => {
 
             <div className="countryInfo">
                 <p className="card-title">
-                {name.common.length > 15 ? name.common.slice(0, 15) + "..." : name.common}
+                {name.common.length > 10 ? name.common.slice(0, 10) + "..." : name.common}
                 </p>
                 <p>
                     <span className="card-description">Population:</span>
