@@ -184,8 +184,17 @@ header .container {
   gap: 6.4rem;
 }
 
+.hero-section .hero-content {
+  /* margin-top: 8.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
 .paragraph {
-  margin: 3.2rem 0;
+  margin: 4rem 0 3.2rem 0;
+  /* margin: 3.2rem 0; */
 }
 
 .heading-xl {
