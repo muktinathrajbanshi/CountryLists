@@ -710,3 +710,63 @@ button {
     height: 15rem;
   }
 }
+
+/* for 591px  */
+
+@media (max-width: 591px) {
+  .country-section .section-searchFilter input {
+    width: 15rem;
+  }
+
+  .country-section .section-searchFilter button {
+    font-size: 1.2rem;
+  }
+
+  .footer-section .grid-three-cols {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.2rem;
+    gap: 0.5rem;
+  }
+
+  .copyright-area .grid.grid-two-cols {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1fr, 1fr);
+  }
+
+  .footer-contact .icon {
+    font-size: 2rem;
+  }
+
+  .footer-contact {
+    gap: 1.5rem;
+  }
+
+  .footer-section .grid-three-cols p {
+    font-size: 1.2rem;
+  }
+
+  .copyright-text p {
+    gap: 4.5rem;
+    font-size: 1.5rem;
+  }
+
+  .copyright-text p a {
+    font-size: 1.2rem;
+  }
+
+  .copyright-area .container .grid {
+    /* margin: 1rem 0 4rem 0;
+    width: 100%;
+    height: 7rem; */
+    font-size: 1.2rem;
+  }
+
+  .copyright-area .footer-menu ul {
+    gap: 5.5rem;
+  }
+
+  .copyright-area .footer-menu ul li a {
+    font-size: 1.5rem;
+  }
+}
