@@ -193,12 +193,6 @@ header .container {
   gap: 3.2rem;
 }
 
-@media screen and (max-width: 991px) {
-  .gradient-cards {
-    grid-template-columns: 1fr;
-  }
-}
-
 .container-title {
   text-align: center;
   padding: 0 !important;
@@ -637,6 +631,35 @@ button {
   .country-section .country-card .container-card img {
     width: 15rem;
     height: 12rem;
+  }
+}
+
+/* for 991px  */
+
+@media screen and (max-width: 991px) {
+  .hero-section .hero-content h1 {
+    font-size: 3.2rem;
+  }
+
+  .gradient-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* for 871px  */
+@media (max-width: 871px) {
+  .footer-section .copyright-area .grid.grid-two-cols {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-section .copyright-area .copyright-text p {
+    display: flex;
+    gap: 12rem;
+    margin-top: 1.5rem;
   }
 }
 
