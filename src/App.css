@@ -565,6 +565,7 @@ button {
   display: grid;
   -webkit-mask: conic-gradient(from 15deg, #0000, #000);
   animation: l26 1s infinite steps(12);
+  -webkit-animation: l26 1s infinite steps(12);
 }
 .loader,
 .loader:before,
@@ -599,6 +600,14 @@ button {
     width: 80%;
     order: 0;
   }
+}
+
+.loader-center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* /* Mobile Responsive Design is started for remaining parts  */

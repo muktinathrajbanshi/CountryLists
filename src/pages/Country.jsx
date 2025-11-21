@@ -11,15 +11,27 @@ export const Country = () => {
 
   const [search, setSearch] = useState();
   const [filter, setFilter] = useState("all");
+  const [loading, setLoading] = useState(true);
+
 
   useEffect(() => {
+    const timer = setTimeout (() => {
+      setLoading(false);
+    }, 5000);
+
     startTransition(async () => {
      const res = await getCountryData();
      setCountries(res.data);
     });
+
+    return () => clearTimeout(timer);
   }, []);
 
-  if(isPending) return <Loader />;
+  if(loading) return (
+    <div className="loader-center">
+      <Loader />
+    </div>
+  );
 
   // console.log(search, filter);
 
