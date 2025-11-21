@@ -17,7 +17,7 @@ export const Country = () => {
   useEffect(() => {
     const timer = setTimeout (() => {
       setLoading(false);
-    }, 5000);
+    }, 1000);
 
     startTransition(async () => {
      const res = await getCountryData();
