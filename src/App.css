@@ -873,4 +873,35 @@ button {
   .country-card a button {
     font-size: 1.2rem;
   }
+
+  .container-card .country-card-backBtn button {
+    display: flex;
+    width: 8rem;
+    font-size: 1.2rem;
+  }
+
+  .copyright-area .footer-menu ul {
+    margin-top: 1rem;
+    gap: 2.2rem;
+  }
+
+  .card .grid.grid-three-cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /*.country-image.grid.grid-two-cols img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-card .grid.grid-two-cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
 }
