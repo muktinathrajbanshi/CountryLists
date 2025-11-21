@@ -655,11 +655,22 @@ button {
     gap: 1.5rem;
     grid-template-columns: repeat(1, 1fr);
   }
+  .footer-section .copyright-area .footer-menu ul {
+    display: flex;
+    gap: 10rem;
+  }
 
   .footer-section .copyright-area .copyright-text p {
     display: flex;
     gap: 12rem;
     margin-top: 1.5rem;
+  }
+}
+
+/* for 617px  */
+@media (max-width: 617px) {
+  .section-about .gradient-cards {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
