@@ -672,11 +672,29 @@ button {
   .section-about .gradient-cards {
     grid-template-columns: repeat(1, 1fr);
   }
+  .footer-section .copyright-area .copyright-text p {
+    gap: 8rem;
+  }
+  .footer-section .copyright-area .footer-menu ul {
+    gap: 7rem;
+  }
 }
 
 @media (max-width: 963px) {
   .country-section .country-card {
     width: 25rem;
+  }
+}
+
+/* for 544px  */
+@media (max-width: 544px) {
+  .section-about .container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 5rem; */
+    padding: 40px;
   }
 }
 
