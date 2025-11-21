@@ -669,6 +669,10 @@ button {
 
 /* for 617px  */
 @media (max-width: 617px) {
+  .hero-section .grid-two-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .section-about .gradient-cards {
     grid-template-columns: repeat(1, 1fr);
   }
