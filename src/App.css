@@ -668,17 +668,18 @@ button {
 
   .menu-mobile ul {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
   }
 
-  .menu-mobile ul li:first-child {
+  /* .menu-mobile ul li:first-child {
     margin-top: 1.2rem;
   }
 
   .menu-mobile ul li:last-child {
     margin-bottom: 1.2rem;
-  }
+  } */
 }
 
 @media (max-width: 812px) {
@@ -876,6 +877,7 @@ button {
 
   .container-card .country-card-backBtn button {
     display: flex;
+    flex-direction: column;
     width: 8rem;
     font-size: 1.2rem;
   }
