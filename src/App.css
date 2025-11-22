@@ -918,6 +918,13 @@ button {
   .footer-section .container.grid {
     padding: 0;
   }
+  .footer-section .copyright-area .copyright-text p {
+    margin-top: 3.5rem;
+    gap: 2rem;
+  }
+  .footer-section .copyright-area .footer-menu ul {
+    gap: 2rem;
+  }
 }
 
 /* for 400px  */
