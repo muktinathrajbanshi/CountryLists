@@ -9,18 +9,29 @@ export const CountryDetails = () => {
 
     const [isPending, startTransition] = useTransition();
       const [country, setCountry] = useState();
+      const [loading, setLoading] = useState(true);
     
       useEffect(() => {
+
+        const timer = setTimeout (() => {
+        setLoading(false);
+        }, 1000);
+
         startTransition(async () => {
          const res = await getCountryIndData(params.id);
-         console.log(res);
          if(res.status === 200) {
              setCountry(res.data[0]);
          }
         });
+
+        return () => clearTimeout(timer);
       }, []);
     
-      if(isPending) return <Loader />;
+      if(loading) return (
+            <div className="loader-center">
+            <Loader />
+            </div>
+        );
 
     return (
         <section className="card country-details-card">
