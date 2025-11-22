@@ -927,6 +927,13 @@ button {
   }
 }
 
+/* for 440px  */
+@media (max-width: 440px) {
+  .section-contact .contact-wrapper input {
+    width: 35rem;
+  }
+}
+
 /* for 400px  */
 @media (max-width: 400px) {
   .country-card a button {
